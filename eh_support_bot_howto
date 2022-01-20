@@ -1,0 +1,30 @@
+# Usage: eh.support_bot
+Here's the rundown on how to use the discord bot. "eh.support_bot"
+
+
+## for club_members
+
+### `!help`
+Description:
+* Type `!help` into the channel `server-and-bot-clutter`. The bot will DM you with available commands based on your roles.
+
+
+### `!agree`
+Description:
+* You must type `!agree` into the `welcome-and-rules` channel in order to become a club member.
+
+### `!my_stats`
+Description:
+* You must type `!my_stats` in a **DM to the bot**, eh.support_bot. The bot will reply with a brief outline of your stats on the server, then list all of the challenges that you've completed.
+* If you haven't submitted any flags for challenges that you've completed, then the bot will say he can't find you anywhere. 
+
+
+### `!submit_flag <FLAG={some_flag}>`
+Description:
+* You must type `!submit_flag <FLAG={some_flag}>` into a **DM to the bot**, eh.club_support. He's always on the members sidebar. Click him, start your command with the specific flag that you've found and hit enter to send the flag to him. He'll let you know if it's right or wrong.
+* Flags are any bit of data specified by the challenge. Whatever it is, you must submit the flag data wrapped with `FLAG={`*flag_in_snake_case*`}`, like so.
+* examples:
+    * challenge: What is 2 + 2?
+        * flag: `FLAG={4}`
+    * challenge: who played Harry Potter in the famous series, Harry Potter?
+        * flag: `FLAG={daniel_radcliffe}`
